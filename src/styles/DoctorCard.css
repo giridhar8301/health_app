@@ -1,0 +1,68 @@
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.doctor-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4b9cf5;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.doctor-card:hover .doctor-img {
+  border-color: #2563eb;
+}
+
+.doctor-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.doctor-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.available {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.unavailable {
+  color: #d93025;
+  font-weight: bold;
+}
+
+/* Responsive grid cell (for parent to work well) */
+@media (max-width: 600px) {
+  .doctor-card {
+    padding: 16px;
+  }
+
+  .doctor-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .doctor-card h3 {
+    font-size: 18px;
+  }
+}

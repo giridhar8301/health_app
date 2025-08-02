@@ -1,0 +1,90 @@
+.appointment-form {
+  max-width: 500px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appointment-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.appointment-form input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fdfdfd;
+}
+
+.appointment-form input:focus {
+  border-color: #4b9cf5;
+  box-shadow: 0 0 0 3px rgba(75, 156, 245, 0.2);
+  outline: none;
+}
+
+.appointment-form button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+  background-color: #1e4fd1;
+}
+
+/* Confirmation styling */
+.confirmation {
+  max-width: 450px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #e6f9e9;
+  border: 1px solid #b6e4c2;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.confirmation h2 {
+  color: #28a745;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.confirmation p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .appointment-form, .confirmation {
+    padding: 20px;
+    margin: 30px 16px;
+  }
+
+  .appointment-form h2,
+  .confirmation h2 {
+    font-size: 20px;
+  }
+
+  .appointment-form button {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Aiden Foster",
+    "specialization": "Cardiologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=1",
+    "bio": "Experienced cardiologist with over 10 years in practice.",
+    "schedule": ["Mon 10:00-12:00", "Wed 14:00-16:00", "Fri 10:00-12:00"]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Mia Chen",
+    "specialization": "Neurologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=2",
+    "bio": "Neurology expert specializing in brain disorders.",
+    "schedule": ["Tue 10:00-12:00", "Thu 15:00-17:00"]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Liam Patel",
+    "specialization": "Dermatologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=3",
+    "bio": "Skin and cosmetic treatment specialist.",
+    "schedule": []
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sophia Green",
+    "specialization": "Pediatrician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=4",
+    "bio": "Dedicated pediatrician with a passion for child care.",
+    "schedule": ["Mon 09:00-11:00", "Wed 11:00-13:00", "Fri 09:00-11:00"]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Noah Singh",
+    "specialization": "Orthopedic Surgeon",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=5",
+    "bio": "Bone and joint specialist with 12 years of experience.",
+    "schedule": ["Tue 14:00-16:00", "Thu 10:00-12:00"]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Emma Ali",
+    "specialization": "Gynecologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=6",
+    "bio": "Women's health expert with a gentle approach.",
+    "schedule": ["Mon 13:00-15:00", "Wed 09:00-11:00", "Fri 13:00-15:00"]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Ethan Roy",
+    "specialization": "Psychiatrist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=7",
+    "bio": "Mental health professional with a compassionate ear.",
+    "schedule": []
+  },
+  {
+    "id": 8,
+    "name": "Dr. Olivia Kapoor",
+    "specialization": "Ophthalmologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=8",
+    "bio": "Eye specialist with state-of-the-art treatment options.",
+    "schedule": ["Tue 09:00-11:00", "Thu 14:00-16:00"]
+  },
+  {
+    "id": 9,
+    "name": "Dr. Benjamin Reddy",
+    "specialization": "ENT Specialist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=9",
+    "bio": "Expert in ear, nose, and throat disorders.",
+    "schedule": ["Mon 10:00-12:00", "Wed 14:00-16:00"]
+  },
+  {
+    "id": 10,
+    "name": "Dr. Isabella Jain",
+    "specialization": "General Physician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=10",
+    "bio": "Primary care doctor for adults and children.",
+    "schedule": ["Mon-Fri 09:00-13:00"]
+  },
+
+  {
+    "id": 11,
+    "name": "Dr. Benjamin Green",
+    "specialization": "Cardiologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=12",
+    "bio": "Specialist in cardiologist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 12,
+    "name": "Dr. Emma Kapoor",
+    "specialization": "Ophthalmologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=13",
+    "bio": "Specialist in ophthalmologist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 13,
+    "name": "Dr. Benjamin Verma",
+    "specialization": "General Physician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=14",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 14,
+    "name": "Dr. Ava Green",
+    "specialization": "Psychiatrist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=15",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 15,
+    "name": "Dr. James Green",
+    "specialization": "ENT Specialist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=16",
+    "bio": "Specialist in ent specialist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 16,
+    "name": "Dr. James Jain",
+    "specialization": "Neurologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=17",
+    "bio": "Specialist in neurologist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 17,
+    "name": "Dr. Aria Jain",
+    "specialization": "Psychiatrist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=18",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 18,
+    "name": "Dr. Sophia Walker",
+    "specialization": "Pediatrician",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=19",
+    "bio": "Specialist in pediatrician with extensive experience.",
+    "schedule": [
+      "Wed 14:00-16:00"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Dr. Mia Ali",
+    "specialization": "Gynecologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=20",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": [
+      "Wed 11:00-13:00",
+      "Wed 14:00-16:00"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Dr. Lucas Reddy",
+    "specialization": "Psychiatrist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=21",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 21,
+    "name": "Dr. Isabella Chen",
+    "specialization": "Pediatrician",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=22",
+    "bio": "Specialist in pediatrician with extensive experience.",
+    "schedule": [
+      "Thu 15:00-17:00"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Dr. Benjamin Chen",
+    "specialization": "ENT Specialist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=23",
+    "bio": "Specialist in ent specialist with extensive experience.",
+    "schedule": [
+      "Fri 13:00-15:00"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dr. Aria Ali",
+    "specialization": "Dermatologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=24",
+    "bio": "Specialist in dermatologist with extensive experience.",
+    "schedule": [
+      "Tue 10:00-12:00",
+      "Mon 13:00-15:00"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Dr. Ethan Hill",
+    "specialization": "Gynecologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=25",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": [
+      "Fri 10:00-12:00",
+      "Wed 14:00-16:00"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Dr. Lucas Nguyen",
+    "specialization": "General Physician",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=26",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 26,
+    "name": "Dr. James Walker",
+    "specialization": "Orthopedic Surgeon",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=27",
+    "bio": "Specialist in orthopedic surgeon with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 27,
+    "name": "Dr. Benjamin Mehta",
+    "specialization": "Gynecologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=28",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": [
+      "Wed 11:00-13:00"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Dr. Isabella Gupta",
+    "specialization": "Gynecologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=29",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": [
+      "Mon 13:00-15:00"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Dr. Ethan Das",
+    "specialization": "Orthopedic Surgeon",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=30",
+    "bio": "Specialist in orthopedic surgeon with extensive experience.",
+    "schedule": [
+      "Tue 14:00-16:00",
+      "Fri 10:00-12:00"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dr. Isabella Mehta",
+    "specialization": "ENT Specialist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=31",
+    "bio": "Specialist in ent specialist with extensive experience.",
+    "schedule": [
+      "Tue 10:00-12:00",
+      "Mon 09:00-11:00"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dr. Liam Chen",
+    "specialization": "General Physician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=32",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": [
+      "Thu 15:00-17:00",
+      "Mon 13:00-15:00",
+      "Tue 14:00-16:00"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dr. Mia Das",
+    "specialization": "Neurologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=33",
+    "bio": "Specialist in neurologist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 33,
+    "name": "Dr. Noah Turner",
+    "specialization": "General Physician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=34",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": [
+      "Fri 10:00-12:00",
+      "Fri 13:00-15:00",
+      "Thu 15:00-17:00"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dr. Chloe Jain",
+    "specialization": "Psychiatrist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=35",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": [
+      "Thu 10:00-12:00"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Dr. Logan Das",
+    "specialization": "Cardiologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=36",
+    "bio": "Specialist in cardiologist with extensive experience.",
+    "schedule": [
+      "Tue 10:00-12:00",
+      "Thu 15:00-17:00"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Dr. Sophia Verma",
+    "specialization": "Neurologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=37",
+    "bio": "Specialist in neurologist with extensive experience.",
+    "schedule": [
+      "Fri 13:00-15:00"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Dr. Ava Sharma",
+    "specialization": "Dermatologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=38",
+    "bio": "Specialist in dermatologist with extensive experience.",
+    "schedule": [
+      "Fri 13:00-15:00",
+      "Tue 14:00-16:00",
+      "Mon 13:00-15:00"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Dr. Lucas Turner",
+    "specialization": "Pediatrician",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=39",
+    "bio": "Specialist in pediatrician with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 39,
+    "name": "Dr. Emma Chen",
+    "specialization": "ENT Specialist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=40",
+    "bio": "Specialist in ent specialist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 40,
+    "name": "Dr. Mia Singh",
+    "specialization": "Psychiatrist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=41",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": [
+      "Tue 14:00-16:00",
+      "Tue 10:00-12:00"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Dr. Mason Nguyen",
+    "specialization": "Pediatrician",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=42",
+    "bio": "Specialist in pediatrician with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 42,
+    "name": "Dr. Olivia Turner",
+    "specialization": "Psychiatrist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=43",
+    "bio": "Specialist in psychiatrist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 43,
+    "name": "Dr. Amelia Kumar",
+    "specialization": "ENT Specialist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=44",
+    "bio": "Specialist in ent specialist with extensive experience.",
+    "schedule": [
+      "Mon 09:00-11:00",
+      "Thu 10:00-12:00"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Dr. Mason Hill",
+    "specialization": "Neurologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=45",
+    "bio": "Specialist in neurologist with extensive experience.",
+    "schedule": [
+      "Mon 13:00-15:00",
+      "Thu 10:00-12:00",
+      "Wed 14:00-16:00"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Dr. Aiden Nguyen",
+    "specialization": "Pediatrician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=46",
+    "bio": "Specialist in pediatrician with extensive experience.",
+    "schedule": [
+      "Tue 14:00-16:00",
+      "Mon 13:00-15:00"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Dr. Lucas Mehta",
+    "specialization": "Gynecologist",
+    "availability": "On Leave",
+    "profileImage": "https://i.pravatar.cc/150?img=47",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": []
+  },
+  {
+    "id": 47,
+    "name": "Dr. Olivia Kapoor",
+    "specialization": "General Physician",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=48",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": [
+      "Thu 15:00-17:00"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Dr. Emma Turner",
+    "specialization": "General Physician",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=49",
+    "bio": "Specialist in general physician with extensive experience.",
+    "schedule": [
+      "Mon 13:00-15:00",
+      "Fri 10:00-12:00"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Dr. Emma Verma",
+    "specialization": "Gynecologist",
+    "availability": "Available Today",
+    "profileImage": "https://i.pravatar.cc/150?img=50",
+    "bio": "Specialist in gynecologist with extensive experience.",
+    "schedule": [
+      "Thu 10:00-12:00",
+      "Fri 13:00-15:00"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Dr. Isabella Nguyen",
+    "specialization": "Cardiologist",
+    "availability": "Fully Booked",
+    "profileImage": "https://i.pravatar.cc/150?img=51",
+    "bio": "Specialist in cardiologist with extensive experience.",
+    "schedule": [
+      "Mon 13:00-15:00",
+      "Tue 10:00-12:00"
+    ]
+  }
+
+]

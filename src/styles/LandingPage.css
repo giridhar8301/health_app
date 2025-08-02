@@ -1,0 +1,45 @@
+.landing-page {
+  padding: 60px 40px;
+  background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.landing-page h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+  letter-spacing: 1px;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .landing-page {
+    padding: 40px 20px;
+  }
+
+  .landing-page h1 {
+    font-size: 28px;
+  }
+}
