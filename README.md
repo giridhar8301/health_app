@@ -1,74 +1,69 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🏥 Healthcare Appointment Booking Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, responsive React-based web application where users can:
+- View doctors with their availability
+- Check their specialization and schedule
+- Book appointments easily
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📦 Tech Stack / Tools & Libraries Used
 
-### `npm start`
+| Tool/Library        | Purpose                                                                 |
+|---------------------|-------------------------------------------------------------------------|
+| **React.js**        | Frontend framework for building the user interface                      |
+| **JavaScript (ES6)**| Application logic                                                       |
+| **React Router DOM**| SPA routing for navigating between pages     |
+| **CSS**             | Styling (no Tailwind/Bootstrap — advanced hand-written CSS)             |
+| **Vercel**          | Frontend deployment                                                     |
+| **Git + GitHub**    | Version control and code hosting                                        |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✅ Features Implemented
 
-### `npm test`
+- 🔍 **Landing Page:**  
+  List of doctors with name, specialization, profile image, availability, and search filter.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 👨‍⚕️ **Doctor Profile Page:**  
+  Detailed bio, weekly schedule (in structured format), and direct appointment access.
 
-### `npm run build`
+- 📆 **Book Appointment:**  
+  Simple form (name, email, datetime), with validation and confirmation UI.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 💡 **Responsive Design:**  
+  Mobile-first layout using media queries and scalable components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📁 **Doctors Data (Static JSON):**  
+  Doctor profiles, availability status, and schedules stored in `/public/doctors.json`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚧 If I Had More Time (Planned Improvements)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Feature                      | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| 🧠 **State Management (Redux/Context)** | Centralized doctor & appointment data management                      |
+| 📅 **Calendar Integration**  | Better slot booking using real calendar view                              |
+| 🛠 **Backend + DB (MongoDB)**| Save appointment bookings persistently                                      |
+| 👥 **User Authentication**   | Patients and admins can log in, view/manage their history                   |
+| 📤 **Email Confirmation**    | Send appointment confirmation via email using NodeMailer or EmailJS         |
+| 🗃 **Filter by Specialization/Time** | More advanced filtering on landing page                                 |
+| 📱 **Progressive Web App**   | PWA support for offline + mobile installs                                   |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧩 Challenges Faced & Solutions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Challenge                              | Solution                                                                 |
+|----------------------------------------|--------------------------------------------------------------------------|
+| 🧪 Parsing doctor schedule data         | Used structured `{ day, time }` format and displayed conditionally        |
+| 🗂 Managing static doctor data (JSON)   | Stored under `public/doctors.json` and loaded via `fetch()` in components |
+| 🔁 Handling schedule visibility         | Conditional rendering based on presence and formatting of schedule array  |
+| 🌐 Hosting + Routing on Vercel         | Used React Router with fallback route setup (`404.html`) for SPA 
+---
 
-## Learn More
+## 🚀 Live Site (if deployed)
+[https://health-app-pink.vercel.app/]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# healthcare-booking-ui
->>>>>>> d7ef8d857853b03a507d55974a17a8b19d00431d
+---
