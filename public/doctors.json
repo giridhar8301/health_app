@@ -6,7 +6,20 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=1",
     "bio": "Experienced cardiologist with over 10 years in practice.",
-    "schedule": ["Mon 10:00-12:00", "Wed 14:00-16:00", "Fri 10:00-12:00"]
+    "schedule": [
+      {
+        "day": "Mon",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Fri",
+        "time": "10:00-12:00"
+      }
+    ]
   },
   {
     "id": 2,
@@ -15,7 +28,16 @@
     "availability": "Fully Booked",
     "profileImage": "https://i.pravatar.cc/150?img=2",
     "bio": "Neurology expert specializing in brain disorders.",
-    "schedule": ["Tue 10:00-12:00", "Thu 15:00-17:00"]
+    "schedule": [
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      }
+    ]
   },
   {
     "id": 3,
@@ -24,7 +46,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=3",
     "bio": "Skin and cosmetic treatment specialist.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "11:00-13:00"
+      }
+    ]
   },
   {
     "id": 4,
@@ -33,7 +64,20 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=4",
     "bio": "Dedicated pediatrician with a passion for child care.",
-    "schedule": ["Mon 09:00-11:00", "Wed 11:00-13:00", "Fri 09:00-11:00"]
+    "schedule": [
+      {
+        "day": "Mon",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Wed",
+        "time": "11:00-13:00"
+      },
+      {
+        "day": "Fri",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 5,
@@ -42,7 +86,16 @@
     "availability": "Fully Booked",
     "profileImage": "https://i.pravatar.cc/150?img=5",
     "bio": "Bone and joint specialist with 12 years of experience.",
-    "schedule": ["Tue 14:00-16:00", "Thu 10:00-12:00"]
+    "schedule": [
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Thu",
+        "time": "10:00-12:00"
+      }
+    ]
   },
   {
     "id": 6,
@@ -51,7 +104,20 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=6",
     "bio": "Women's health expert with a gentle approach.",
-    "schedule": ["Mon 13:00-15:00", "Wed 09:00-11:00", "Fri 13:00-15:00"]
+    "schedule": [
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Wed",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      }
+    ]
   },
   {
     "id": 7,
@@ -60,7 +126,24 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=7",
     "bio": "Mental health professional with a compassionate ear.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Monday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 8,
@@ -69,7 +152,16 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=8",
     "bio": "Eye specialist with state-of-the-art treatment options.",
-    "schedule": ["Tue 09:00-11:00", "Thu 14:00-16:00"]
+    "schedule": [
+      {
+        "day": "Tue",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Thu",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 9,
@@ -78,7 +170,16 @@
     "availability": "Fully Booked",
     "profileImage": "https://i.pravatar.cc/150?img=9",
     "bio": "Expert in ear, nose, and throat disorders.",
-    "schedule": ["Mon 10:00-12:00", "Wed 14:00-16:00"]
+    "schedule": [
+      {
+        "day": "Mon",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 10,
@@ -87,9 +188,13 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=10",
     "bio": "Primary care doctor for adults and children.",
-    "schedule": ["Mon-Fri 09:00-13:00"]
+    "schedule": [
+      {
+        "day": "Mon-Fri",
+        "time": "09:00-13:00"
+      }
+    ]
   },
-
   {
     "id": 11,
     "name": "Dr. Benjamin Green",
@@ -97,7 +202,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=12",
     "bio": "Specialist in cardiologist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "11:00-13:00"
+      },
+      {
+        "day": "Thursday",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "10:00-12:00"
+      }
+    ]
   },
   {
     "id": 12,
@@ -106,7 +224,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=13",
     "bio": "Specialist in ophthalmologist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "15:00-17:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "11:00-13:00"
+      }
+    ]
   },
   {
     "id": 13,
@@ -115,7 +242,16 @@
     "availability": "Available Today",
     "profileImage": "https://i.pravatar.cc/150?img=14",
     "bio": "Specialist in general physician with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 14,
@@ -124,7 +260,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=15",
     "bio": "Specialist in psychiatrist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Monday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 15,
@@ -133,7 +278,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=16",
     "bio": "Specialist in ent specialist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Monday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 16,
@@ -142,7 +296,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=17",
     "bio": "Specialist in neurologist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Monday",
+        "time": "11:00-13:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "13:00-15:00"
+      }
+    ]
   },
   {
     "id": 17,
@@ -151,7 +318,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=18",
     "bio": "Specialist in psychiatrist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Wednesday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Thursday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 18,
@@ -161,7 +337,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=19",
     "bio": "Specialist in pediatrician with extensive experience.",
     "schedule": [
-      "Wed 14:00-16:00"
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      }
     ]
   },
   {
@@ -172,8 +351,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=20",
     "bio": "Specialist in gynecologist with extensive experience.",
     "schedule": [
-      "Wed 11:00-13:00",
-      "Wed 14:00-16:00"
+      {
+        "day": "Wed",
+        "time": "11:00-13:00"
+      },
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      }
     ]
   },
   {
@@ -183,7 +368,24 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=21",
     "bio": "Specialist in psychiatrist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Tuesday",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Monday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 21,
@@ -193,7 +395,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=22",
     "bio": "Specialist in pediatrician with extensive experience.",
     "schedule": [
-      "Thu 15:00-17:00"
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      }
     ]
   },
   {
@@ -204,7 +409,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=23",
     "bio": "Specialist in ent specialist with extensive experience.",
     "schedule": [
-      "Fri 13:00-15:00"
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -215,8 +423,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=24",
     "bio": "Specialist in dermatologist with extensive experience.",
     "schedule": [
-      "Tue 10:00-12:00",
-      "Mon 13:00-15:00"
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -227,8 +441,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=25",
     "bio": "Specialist in gynecologist with extensive experience.",
     "schedule": [
-      "Fri 10:00-12:00",
-      "Wed 14:00-16:00"
+      {
+        "day": "Fri",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      }
     ]
   },
   {
@@ -238,7 +458,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=26",
     "bio": "Specialist in general physician with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Tuesday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 26,
@@ -247,7 +480,16 @@
     "availability": "Fully Booked",
     "profileImage": "https://i.pravatar.cc/150?img=27",
     "bio": "Specialist in orthopedic surgeon with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Wednesday",
+        "time": "11:00-13:00"
+      },
+      {
+        "day": "Monday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 27,
@@ -257,7 +499,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=28",
     "bio": "Specialist in gynecologist with extensive experience.",
     "schedule": [
-      "Wed 11:00-13:00"
+      {
+        "day": "Wed",
+        "time": "11:00-13:00"
+      }
     ]
   },
   {
@@ -268,7 +513,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=29",
     "bio": "Specialist in gynecologist with extensive experience.",
     "schedule": [
-      "Mon 13:00-15:00"
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -279,8 +527,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=30",
     "bio": "Specialist in orthopedic surgeon with extensive experience.",
     "schedule": [
-      "Tue 14:00-16:00",
-      "Fri 10:00-12:00"
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Fri",
+        "time": "10:00-12:00"
+      }
     ]
   },
   {
@@ -291,8 +545,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=31",
     "bio": "Specialist in ent specialist with extensive experience.",
     "schedule": [
-      "Tue 10:00-12:00",
-      "Mon 09:00-11:00"
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Mon",
+        "time": "09:00-11:00"
+      }
     ]
   },
   {
@@ -303,9 +563,18 @@
     "profileImage": "https://i.pravatar.cc/150?img=32",
     "bio": "Specialist in general physician with extensive experience.",
     "schedule": [
-      "Thu 15:00-17:00",
-      "Mon 13:00-15:00",
-      "Tue 14:00-16:00"
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      },
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      }
     ]
   },
   {
@@ -315,7 +584,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=33",
     "bio": "Specialist in neurologist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Friday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "11:00-13:00"
+      }
+    ]
   },
   {
     "id": 33,
@@ -325,9 +607,18 @@
     "profileImage": "https://i.pravatar.cc/150?img=34",
     "bio": "Specialist in general physician with extensive experience.",
     "schedule": [
-      "Fri 10:00-12:00",
-      "Fri 13:00-15:00",
-      "Thu 15:00-17:00"
+      {
+        "day": "Fri",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      }
     ]
   },
   {
@@ -338,7 +629,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=35",
     "bio": "Specialist in psychiatrist with extensive experience.",
     "schedule": [
-      "Thu 10:00-12:00"
+      {
+        "day": "Thu",
+        "time": "10:00-12:00"
+      }
     ]
   },
   {
@@ -349,8 +643,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=36",
     "bio": "Specialist in cardiologist with extensive experience.",
     "schedule": [
-      "Tue 10:00-12:00",
-      "Thu 15:00-17:00"
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      }
     ]
   },
   {
@@ -361,7 +661,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=37",
     "bio": "Specialist in neurologist with extensive experience.",
     "schedule": [
-      "Fri 13:00-15:00"
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -372,9 +675,18 @@
     "profileImage": "https://i.pravatar.cc/150?img=38",
     "bio": "Specialist in dermatologist with extensive experience.",
     "schedule": [
-      "Fri 13:00-15:00",
-      "Tue 14:00-16:00",
-      "Mon 13:00-15:00"
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -384,7 +696,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=39",
     "bio": "Specialist in pediatrician with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Monday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Thursday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Wednesday",
+        "time": "15:00-17:00"
+      }
+    ]
   },
   {
     "id": 39,
@@ -393,7 +718,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=40",
     "bio": "Specialist in ent specialist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Friday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 40,
@@ -403,8 +737,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=41",
     "bio": "Specialist in psychiatrist with extensive experience.",
     "schedule": [
-      "Tue 14:00-16:00",
-      "Tue 10:00-12:00"
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      }
     ]
   },
   {
@@ -414,7 +754,20 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=42",
     "bio": "Specialist in pediatrician with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Tuesday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Monday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 42,
@@ -423,7 +776,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=43",
     "bio": "Specialist in psychiatrist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Tuesday",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Friday",
+        "time": "14:00-16:00"
+      }
+    ]
   },
   {
     "id": 43,
@@ -433,8 +795,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=44",
     "bio": "Specialist in ent specialist with extensive experience.",
     "schedule": [
-      "Mon 09:00-11:00",
-      "Thu 10:00-12:00"
+      {
+        "day": "Mon",
+        "time": "09:00-11:00"
+      },
+      {
+        "day": "Thu",
+        "time": "10:00-12:00"
+      }
     ]
   },
   {
@@ -445,9 +813,18 @@
     "profileImage": "https://i.pravatar.cc/150?img=45",
     "bio": "Specialist in neurologist with extensive experience.",
     "schedule": [
-      "Mon 13:00-15:00",
-      "Thu 10:00-12:00",
-      "Wed 14:00-16:00"
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Thu",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Wed",
+        "time": "14:00-16:00"
+      }
     ]
   },
   {
@@ -458,8 +835,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=46",
     "bio": "Specialist in pediatrician with extensive experience.",
     "schedule": [
-      "Tue 14:00-16:00",
-      "Mon 13:00-15:00"
+      {
+        "day": "Tue",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -469,7 +852,16 @@
     "availability": "On Leave",
     "profileImage": "https://i.pravatar.cc/150?img=47",
     "bio": "Specialist in gynecologist with extensive experience.",
-    "schedule": []
+    "schedule": [
+      {
+        "day": "Thursday",
+        "time": "14:00-16:00"
+      },
+      {
+        "day": "Friday",
+        "time": "09:00-11:00"
+      }
+    ]
   },
   {
     "id": 47,
@@ -479,7 +871,10 @@
     "profileImage": "https://i.pravatar.cc/150?img=48",
     "bio": "Specialist in general physician with extensive experience.",
     "schedule": [
-      "Thu 15:00-17:00"
+      {
+        "day": "Thu",
+        "time": "15:00-17:00"
+      }
     ]
   },
   {
@@ -490,8 +885,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=49",
     "bio": "Specialist in general physician with extensive experience.",
     "schedule": [
-      "Mon 13:00-15:00",
-      "Fri 10:00-12:00"
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Fri",
+        "time": "10:00-12:00"
+      }
     ]
   },
   {
@@ -502,8 +903,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=50",
     "bio": "Specialist in gynecologist with extensive experience.",
     "schedule": [
-      "Thu 10:00-12:00",
-      "Fri 13:00-15:00"
+      {
+        "day": "Thu",
+        "time": "10:00-12:00"
+      },
+      {
+        "day": "Fri",
+        "time": "13:00-15:00"
+      }
     ]
   },
   {
@@ -514,9 +921,14 @@
     "profileImage": "https://i.pravatar.cc/150?img=51",
     "bio": "Specialist in cardiologist with extensive experience.",
     "schedule": [
-      "Mon 13:00-15:00",
-      "Tue 10:00-12:00"
+      {
+        "day": "Mon",
+        "time": "13:00-15:00"
+      },
+      {
+        "day": "Tue",
+        "time": "10:00-12:00"
+      }
     ]
   }
-
 ]
